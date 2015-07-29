@@ -1,6 +1,6 @@
 # AdminZ
 
-Laravel 5.1 Controller & View Package outsite `app` folder.
+Laravel 5.1 Controller & View Package outside `app` folder.
 
 Directory & Files Structure
 ---------------------------
