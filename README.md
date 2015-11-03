@@ -35,3 +35,5 @@ Add package path in root `composer.json`
 ```
 
 run `composer dump-autoload`
+
+test packages with url `http://your-domain.com/admin`
