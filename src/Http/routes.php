@@ -16,4 +16,4 @@
  * Namespaces indicate folder structure
  */
 
-Route::get('adminz', 'WelcomController@index');
+Route::get('admin', 'WelcomController@index');
