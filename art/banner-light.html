@@ -1,0 +1,55 @@
+<!doctype html><html><head><meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:640px;overflow:hidden}
+body{font-family:'Inter','Segoe UI',system-ui,sans-serif;color:#14171C;
+  background:
+    radial-gradient(820px 460px at 50% 118%,rgba(216,38,27,.10),transparent 72%),
+    radial-gradient(circle at 1px 1px,rgba(0,0,0,.07) 1px,transparent 0) 0 0/26px 26px,
+    #EFEEE9;}
+.page{width:100%;height:100%;padding:44px 56px 40px;display:flex;flex-direction:column}
+
+h1{font-size:50px;font-weight:800;letter-spacing:-.035em;line-height:1}
+h1 .a{color:#D8261B}
+.sub{margin-top:12px;font-size:21px;font-weight:450;color:#5C636E;letter-spacing:-.012em}
+.tag{font-size:25px;font-weight:700;letter-spacing:-.022em}
+.tag .a{color:#D8261B}
+.mid{flex:1;display:flex;align-items:center;justify-content:center;gap:24px;min-height:0}
+
+.win{background:#FBFAF8;border:1px solid rgba(0,0,0,.09);border-radius:18px;
+  box-shadow:0 18px 44px rgba(20,24,33,.10);overflow:hidden;display:flex;flex-direction:column}
+.bar{display:flex;align-items:center;gap:10px;padding:12px 18px;background:rgba(0,0,0,.035);
+  border-bottom:1px solid rgba(0,0,0,.09);flex:0 0 auto}
+.bar .t{font-size:11.5px;font-weight:700;letter-spacing:.14em;color:#6B7280;text-transform:uppercase}
+.dots{display:flex;gap:6px}
+.dots i{width:9px;height:9px;border-radius:50%;background:rgba(0,0,0,.14);display:block}
+.pill{background:#FFFFFF;border:1px solid rgba(0,0,0,.09);border-radius:999px;padding:6px 14px;
+  font-size:12.5px;color:#6B7280;font-weight:500}
+.pad{padding:18px;flex:1;display:flex;flex-direction:column;justify-content:center;min-height:0}
+
+.mono{font-family:'JetBrains Mono',Consolas,monospace;color:#2B303A}
+.chip{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;font-weight:600;
+  color:#6B7280;background:rgba(0,0,0,.035);border:1px solid rgba(0,0,0,.09);padding:5px 11px;
+  border-radius:999px;white-space:nowrap}
+.chip.on{color:#fff;background:#D8261B;border-color:transparent}
+.ok{display:inline-flex;align-items:center;gap:7px;background:#E4F2E8;color:#1E7A3F;
+  font-size:12.5px;font-weight:600;padding:5px 11px;border-radius:8px}
+.warn{background:#FBE7D4;color:#AF560E}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;background:currentColor}
+.muted{color:#5C636E}
+.accent{color:#D8261B}
+.row{display:flex;align-items:center;gap:11px}
+.grow{flex:1}
+.logo{filter:drop-shadow(0 14px 30px rgba(0,0,0,.30))}
+
+.tree{width:880px;margin:0 auto;font-family:'JetBrains Mono',Consolas,monospace;
+  font-size:13.5px;line-height:1.85;color:#2B303A}
+.tree .d{color:#D8261B;font-weight:700}
+.tree .m{color:#5C636E}
+
+</style></head><body><div class="page">
+<div class="row" style="gap:20px;flex:0 0 auto"><img class="logo" src="logo.svg" width="66" height="66" style="flex:0 0 auto;"><div><h1>AdminZ</h1><div class="sub">A Laravel 5.1 package workbench: controllers and views outside app/</div></div></div><div class="mid"><div class="win tree"><div class="bar"><span class="dots"><i></i><i></i><i></i></span><span class="t">Project</span><span class="grow"></span></div><div class="pad" style="justify-content:flex-start"><span class="m">Laravel 5.1 (root)</span><br>|-- <span class="d">packages</span><br>&nbsp;&nbsp;&nbsp;&nbsp;|-- <span class="d">smithfoto</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- <span class="d">AdminZ</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- views/welcome.blade.php<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- src/AdminZServiceProvider.php<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- src/Http/Controllers/</div></div></div><div class="tag" style=";margin-top:0px;flex:0 0 auto">Controllers and views <span class="a">in their own package.</span></div>
+</div></body></html>

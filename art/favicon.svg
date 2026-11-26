@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="AdminZ logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2A1512"/><stop offset="1" stop-color="#0D0605"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7A5C"/><stop offset="1" stop-color="#D8261B"/>
+    </linearGradient>
+    <linearGradient id="pg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E6DAD8"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="3" y="3" width="506" height="506" rx="109" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="6"/>
+
+<g transform="translate(256 262) scale(1.18) translate(-256 -256)">
+
+  <rect x="152" y="112" width="208" height="150" rx="18" fill="url(#pg2)"/>
+  <rect x="182" y="146" width="148" height="14" rx="7" fill="#C2AFAC"/>
+  <rect x="182" y="176" width="110" height="14" rx="7" fill="#D6C7C4"/>
+  <path d="M110 268 L256 222 L402 268 L256 316 Z" fill="url(#box)"/>
+  <path d="M110 268 V358 L256 406 V316 Z" fill="#B51E15"/>
+  <path d="M402 268 V358 L256 406 V316 Z" fill="#E6372A"/>
+  <rect x="232" y="196" width="48" height="52" rx="10" fill="#8E1710" opacity=".55"/>
+
+</g>
+</svg>
